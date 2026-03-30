@@ -3,7 +3,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
 
     const nome = document.getElementById('name').value;
     const email = document.getElementById('email').value;
-    const apto = document.getElementById('apto').value;
+    const fracao = document.getElementById('apto').value;
     const mensagem = document.getElementById('message').value;
 
     if (nome.length < 3) {
@@ -16,7 +16,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
         return;
     }
 
-    alert("Sucesso! A sua mensagem para o Condomínio " + apto + " foi enviada.");
+    alert("Sucesso! A sua mensagem para o Condomínio " + fracao + " foi enviada.");
     this.reset(); 
 });
 
