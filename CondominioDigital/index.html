@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condomínio Digital | Portal do Condómino</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Condomínio<span>Digital</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Suporte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Bem-vindo ao Portal do Condómino</h1>
+                <p>Gestão de avisos, reservas e suporte num só lugar.</p>
+            </div>
+        </section>
+
+        <section id="servicos">
+            <h2 class="section-title">Serviços e Reservas</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <h3>Piscina</h3>
+                    <p>Horário: 08h às 20h. Lotação máxima: 15 pessoas.</p>
+                    <button class="btn-reserva">Ver Disponibilidade</button>
+                </div>
+                <div class="card">
+                    <h3>Salão de Festas</h3>
+                    <p>Reserve para o seu evento. Verifique as taxas de limpeza.</p>
+                    <button class="btn-reserva">Reservar</button>
+                </div>
+                <div class="card">
+                    <h3>Ginásio</h3>
+                    <p>Equipamentos modernos disponíveis 24h para moradores.</p>
+                    <button class="btn-reserva">Entrar</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2 class="section-title">Contacto com a Administração</h2>
+            <div class="form-container">
+                <form id="contact-form">
+                    <div class="input-group">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" id="name" placeholder="Ex: João Silva" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="email@exemplo.com" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="apto">Bloco / Apartamento</label>
+                        <input type="text" id="apto" placeholder="Ex: Bloco A - 102" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Mensagem ou Ocorrência</label>
+                        <textarea id="message" rows="4" placeholder="Descreva o seu pedido..." required></textarea>
+                    </div>
+                    <button type="submit" id="submit-btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Condomínio Digital. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="JS/javascript.js"></script>
+</body>
+</html>
